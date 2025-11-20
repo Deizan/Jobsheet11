@@ -1,6 +1,7 @@
 public class BioskopModifikasi16 {
     public static void main(String[] args)  {
         String[][] penonton = new String[4][4];
+
         penonton[0][0] = "Amin";
         penonton[0][1] = "Bena";
         penonton[1][0] = "Candra";    
@@ -13,12 +14,10 @@ public class BioskopModifikasi16 {
         System.out.printf("%s \t %s \n", penonton[1][0], penonton[1][1]);   
         System.out.printf("%s \t %s \n", penonton[2][0], penonton[2][1]);
         System.out.printf("%s \t %s \n", penonton[3][0], penonton[3][1]);
-        System.out.println();        
-        System.out.println("Total baris: " + penonton.length);
-        int nomorBaris = 1;
-        for (String[] baris : penonton) {
-            System.out.println("Panjang baris ke-" + nomorBaris + ": " + baris.length);
-            nomorBaris++;
+  
+        System.out.println(penonton.length);
+        for (int i = 0; i < penonton.length; i++) {
+            System.out.println("Panjang baris ke-" + (i+1) + ": " + penonton[i].length);
         }
         System.out.println();
         System.out.println("Penonton pada baris ke-3: ");
