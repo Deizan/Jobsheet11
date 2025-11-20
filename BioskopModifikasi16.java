@@ -14,11 +14,9 @@ public class BioskopModifikasi16 {
         System.out.printf("%s \t %s \n", penonton[2][0], penonton[2][1]);
         System.out.printf("%s \t %s \n", penonton[3][0], penonton[3][1]);
         System.out.println();        
-        System.out.println("Total baris: " + penonton.length);
-        int nomorBaris = 1;
-        for (String[] baris : penonton) {
-            System.out.println("Panjang baris ke-" + nomorBaris + ": " + baris.length);
-            nomorBaris++;
+        System.out.println(penonton.length);
+        for (String[] barisPenonton : penonton) {
+            System.out.println("Panjang baris: " + barisPenonton.length);
         }
     }
 }
