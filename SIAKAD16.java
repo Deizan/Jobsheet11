@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class SIAKAD16 {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         Scanner scanner = new Scanner(System.in);
         int[][] nilai = new int[4][3];
 
