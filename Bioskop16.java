@@ -1,5 +1,5 @@
 public class Bioskop16 {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         String[][] penonton = new String[4][4];
         penonton[0][0] = "Amin";
         penonton[0][1] = "Bena";
